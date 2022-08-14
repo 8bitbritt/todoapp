@@ -1,0 +1,40 @@
+.item {
+  padding: 1rem;
+
+}
+.listitem label{
+  display:none;
+}
+.listitem{
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color:#30353c;
+  margin: 1rem;
+  border: 2px solid #7b828b;
+  padding:0;
+  position:relative;
+  border-radius: 8px;
+  color: #dbe0e5;
+}
+.listitem:nth-child(odd){
+  background-color: #3d454e;
+}
+button.remove{
+  border:none;
+  width: 2rem;
+  height: 2rem;
+  background-color:#c797dd;
+  color: #333;
+  font-size: 1.5em;
+  line-height: 1;
+  font-weight: 700;
+  transition:.5s;
+margin:.5rem;
+border-radius: 50%;
+}
+button.remove:hover{
+  cursor: pointer;
+  background-color:rgb(247, 58, 111);
+}
+

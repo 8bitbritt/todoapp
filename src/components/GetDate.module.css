@@ -1,0 +1,13 @@
+.date{
+    padding: 1rem 1rem 0 1rem;
+    text-align:center;
+}
+.day{
+    font-size: 2em;
+    color: #dbe0e5;
+    line-height: 1.6em;
+}
+.month{
+    color: #b3b7bc;
+    line-height: 1;
+}
