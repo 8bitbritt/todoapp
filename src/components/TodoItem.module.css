@@ -32,6 +32,10 @@ button.remove{
   transition:.5s;
 margin:.5rem;
 border-radius: 50%;
+padding: 0 0 .15em 0;
+display: flex;
+justify-content: center;
+align-items: center;
 }
 button.remove:hover{
   cursor: pointer;

@@ -21,6 +21,7 @@
   background-color: #333;
   margin-right: .5em;
   border: 2px solid #7b828b;
+  color:#ddd;
 }
 
 .form input:focus{
